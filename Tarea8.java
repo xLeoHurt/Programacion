@@ -6,21 +6,21 @@ public class Main {
 
         //coordenadas
         System.out.println("introduce coordenada X1: " );
-        double x1 = input.nextDouble();
+        double xUno = input.nextDouble();
         System.out.println("introduce coordenada Y1: " );
-        double y1 = input.nextDouble();
+        double yUno = input.nextDouble();
         System.out.println("introduce coordenada X2: " );
-        double x2 = input.nextDouble();
+        double xDos = input.nextDouble();
         System.out.println("introduce coordenada Y2: ");
-        double y2 = input.nextDouble();
+        double yDos = input.nextDouble();
         
 
         //Distancia entre coordenadas
-        double distancia = Math.sqrt(Math.pow(x2 - x1, 2) + Math.pow(y2 - y1, 2));
+        double distancia = Math.sqrt(Math.pow(xDos - xUno, 2) + Math.pow(yDos - yUno, 2));
         System.out.println("Distancia entre coordenadas = " + distancia);
 
         //Angulo en radianes
-        double anguloRad = Math.atan2(y2 - y1, x2 - x1);
+        double anguloRad = Math.atan2(yDos - yUno, xDos - xUno);
         System.out.println("angulo en radianes = " + anguloRad);
 
         //Angulo en grados
