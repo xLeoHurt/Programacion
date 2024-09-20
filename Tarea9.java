@@ -29,6 +29,8 @@ public class Main {
         System.out.println("\n");
 
         //perimetro
+        double perimetro = ladoA + ladoB + LadoC;
+        System.out.println("Perimetro: " + perimetro)
 
         //Area del triangulo
         double s = (ladoA + ladoB + ladoC)/2;
