@@ -34,3 +34,7 @@ public class Main {
         /*System.out.println("El salario es: " + salarioFinal);*/
 
         System.out.println(correoCompleto + "|" + fechaDeAscenso + "|" + salarioFinal);
+
+    }
+
+}
